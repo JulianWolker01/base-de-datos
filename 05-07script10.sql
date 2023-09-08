@@ -3,11 +3,6 @@ GO
 /****** Object:  Database [proyecto_academico]    Script Date: 5/7/2023 20:46:48 ******/
 CREATE DATABASE [proyecto_academico]
  CONTAINMENT = NONE
- ON  PRIMARY 
-( NAME = N'proyecto_academico', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\proyecto_academico.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
- LOG ON 
-( NAME = N'proyecto_academico_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\DATA\proyecto_academico_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
- WITH CATALOG_COLLATION = DATABASE_DEFAULT
 GO
 ALTER DATABASE [proyecto_academico] SET COMPATIBILITY_LEVEL = 150
 GO
